@@ -1,0 +1,30 @@
+<!DOCTYPE html> defines that this document is a HTML5 document.
+
+<head> tag contains meta information about the page.
+
+The visible part of the HTML document is between the <body> and </body>.
+
+HTML tags are not case sensitive <P> means same as <p>.
+
+
+
+HTML tags are special keywords that specify how the data will be displayed or how to format the data by the web browsers. Theses tags are always written within angluar brackets(<>).
+
+There are 2 types of HTML Tags:-
+1. Container Tags - These are the tags which have opening tag as well as ending tag. ( <tag_name> content </tag_name>
+2. Empty Tags - These tags only have an opening tag.
+
+HTML Attributes - HTML attributes are the special words placed inside the opening tags and used to define the characteristics of an HTML element. The HTML attributes contain two parts,
+attribute name, and its value. The attribute pairs (attribute_name, attribute_value) are separated using equal (=) operator. The attribute value is closed inside double quotes (" ").
+
+When attribute value is of string type then include the value within the double quotes so that attribute considers string after space like in title=About Us title will only read about
+so to read whole string completely enclose the string within double quotes.
+
+In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes.
+
+When you want to give transparency to the color use rgba(red,blue,green,aplha) where alpha defines opacity for the color. The value of alpha can
+be between 0.0(fully transparent) to 1.0(not transparent at all)
+
+The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set
+the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the
+same color (unless you specify something else).
